@@ -1,0 +1,22 @@
+{
+  "name": "crown",
+  "version": "1.0.0",
+  "description": "crown money app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js HTTPS=true"
+  },
+  "author": " <ramazanov.web@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "passport": "^0.4.1",
+    "passport-vkontakte": "^0.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
